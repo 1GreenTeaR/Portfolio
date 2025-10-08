@@ -14,6 +14,11 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["public/*"],
+      "@/*": ["src/*"]
+    },
 
     /* Linting */
     "strict": true,

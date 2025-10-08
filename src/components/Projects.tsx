@@ -35,8 +35,12 @@ const Projects: React.FC = () => {
         "Score Tracking",
         "Difficulty Levels",
       ],
-      desktopImage: "/assets/projects/sweeper-desktop.png",
-      mobileImage: "/assets/projects/sweeper-mobile.png",
+      desktopImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/sweeper-desktop.png`,
+      mobileImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/sweeper-mobile.png`,
       category: "game",
       sourceUrl: "https://github.com/1GreenTeaR/MineSweeper",
       previewUrl: "https://1GreenTeaR.github.io/MineSweeper/",
@@ -53,8 +57,12 @@ const Projects: React.FC = () => {
         "Score System",
         "Responsive Controls",
       ],
-      desktopImage: "/assets/projects/flappy-desktop.png",
-      mobileImage: "/assets/projects/flappy-moblie.png",
+      desktopImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/flappy-desktop.png`,
+      mobileImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/flappy-moblie.png`,
       category: "game",
       sourceUrl: "https://github.com/1GreenTeaR/Flappy-Duck",
       previewUrl: "https://1GreenTeaR.github.io/Flappy-Duck/",
@@ -71,8 +79,10 @@ const Projects: React.FC = () => {
         "Filtering",
         "Responsive Design",
       ],
-      desktopImage: "/assets/projects/todo-desktop.png",
-      mobileImage: "/assets/projects/todo-moblie.png",
+      desktopImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/todo-desktop.png`,
+      mobileImage: `${import.meta.env.BASE_URL}assets/projects/todo-moblie.png`,
       category: "webapp",
       sourceUrl: "https://github.com/1GreenTeaR/TODO",
       previewUrl: "https://1GreenTeaR.github.io/TODO",
@@ -89,8 +99,12 @@ const Projects: React.FC = () => {
         "Location Services",
         "Material Design",
       ],
-      desktopImage: "/assets/projects/weather-desktop.png",
-      mobileImage: "/assets/projects/weather-moblie.png",
+      desktopImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/weather-desktop.png`,
+      mobileImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/weather-moblie.png`,
       category: "webapp",
       sourceUrl: "https://github.com/1GreenTeaR/WeatherApp",
       previewUrl: "https://1GreenTeaR.github.io/WeatherApp",

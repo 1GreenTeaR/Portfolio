@@ -13,18 +13,18 @@
   --text-secondary: #b8b8c8;
   --text-muted: #8a8a9a;
   
-  /* Accent colors with bluish tint */
-  --accent-primary: #3b82f6;
-  --accent-secondary: #1e40af;
-  --accent-glow: rgba(59, 130, 246, 0.3);
+  /* Accent colors with green tint */
+  --accent-primary: #0fab6a;
+  --accent-secondary: #0a7f4d;
+  --accent-glow: rgba(15, 171, 106, 0.3);
 
   --border-game: #f59e0b;
-  --border-application: #3b82f6;
+  --border-application: #0fab6a;
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  --gradient-primary: linear-gradient(135deg, #0fab6a 0%, #0a7f4d 100%);
   --gradient-secondary: linear-gradient(135deg, #1e1e2a 0%, #2a2a3a 100%);
-  --gradient-glow: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(30, 64, 175, 0.1) 100%);
+  --gradient-glow: linear-gradient(135deg, rgba(15, 171, 106, 0.1) 0%, rgba(10, 127, 77, 0.1) 100%);
   
   /* Shadows */
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);

@@ -1,7 +1,7 @@
 :root {
- --palette-primary: #2563eb;
- --palette-primary-light: #3b82f6;
- --palette-primary-dark: #1e40af;
+ --palette-primary: #0fab6a;
+ --palette-primary-light: #19c07c;
+ --palette-primary-dark: #0a7f4d;
  --palette-secondary: #38bdf8;
  --palette-secondary-light: #7dd3fc;
  --palette-secondary-dark: #0ea5e9;
@@ -27,7 +27,7 @@
  --palette-surface-secondary: #1e293b;
  --palette-surface-secondary-elevated: #273449;
 
- --box-shadow-primary: 0 0 30px 5px #006FFF25 inset, 0 0 10px 2px #1e90ff66;
+ --box-shadow-primary: 0 0 30px 5px #00AB6A25 inset, 0 0 10px 2px #00ab6a66;
 
     --border-radius-full: 20px;
     --border-radius-double: 40px;

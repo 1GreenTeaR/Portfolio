@@ -88,12 +88,12 @@
 .btn-primary {
   background: var(--gradient-primary);
   color: white;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 4px 15px rgba(15, 171, 106, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 8px 25px rgba(15, 171, 106, 0.4);
 }
 
 .btn-secondary {
@@ -113,9 +113,9 @@
   align-items: center;
   gap: var(--space-sm);
   padding: var(--space-sm) var(--space-md);
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(15, 171, 106, 0.1);
   border-radius: var(--radius-md);
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  border: 1px solid rgba(15, 171, 106, 0.2);
   transition: all var(--transition-normal);
 }
 
@@ -150,7 +150,7 @@
   position: absolute;
   font-size: 2rem;
   animation: float 4s ease-in-out infinite;
-  filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.3));
+  filter: drop-shadow(0 0 10px rgba(15, 171, 106, 0.3));
 }
 
 .element-1 {

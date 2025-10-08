@@ -1,13 +1,13 @@
 .footer {
   background: var(--bg-secondary);
-  border-top: 1px solid rgba(59, 130, 246, 0.1);
-  padding: var(--space-xl) 0;
+  border-top: 1px solid rgba(15, 171, 106, 0.15);
+  padding: var(--space-md) 0;
   margin-top: var(--space-2xl);
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-lg);
@@ -16,16 +16,22 @@
 .footer-text {
   color: var(--text-secondary);
   text-align: center;
+  opacity: 0.6;
 }
 
 .footer-text p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .footer-text p:first-child {
-  font-weight: 600;
   margin-bottom: var(--space-xs);
+}
+
+.footer-text p:nth-child(2) {
+  font-size: 10px;
+  font-weight: 500;
 }
 
 .footer-links {

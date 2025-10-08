@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
       id: "flappy-duck",
       title: "FlappyDuck",
       description:
-        "A Flappy Bird clone with a duck, built using JavaScript and Canvas.",
+        "A Flappy Bird clone made from scratch, built using JavaScript and Canvas.",
       technologies: ["JavaScript", "HTML5 Canvas", "CSS3"],
       features: [
         "Canvas Animation",

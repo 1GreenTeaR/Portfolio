@@ -21,9 +21,7 @@ const Contact: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Get In Touch</h2>
-          <p className="section-subtitle">
-            Let's work together on your next project
-          </p>
+          <p className="section-subtitle">Please hire me 🙏</p>
         </div>
 
         <div className="contact-content">

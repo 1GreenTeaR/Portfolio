@@ -91,6 +91,7 @@
   width: 0;
   transition: width 1s ease;
   position: relative;
+  overflow: hidden;
 }
 
 .skill-bar-fill.animate {

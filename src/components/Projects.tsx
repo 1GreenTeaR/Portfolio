@@ -109,6 +109,28 @@ const Projects: React.FC = () => {
       sourceUrl: "https://github.com/1GreenTeaR/WeatherApp",
       previewUrl: "https://1GreenTeaR.github.io/WeatherApp",
     },
+    {
+      id: "doodle-art",
+      title: "Doodle Art",
+      description:
+        "Pixel-style drawing canvas with brush and eraser tools, color picker, and export.",
+      technologies: ["React", "TypeScript", "Canvas", "Vite"],
+      features: [
+        "Brush & Eraser Tools",
+        "Adjustable Brush Size",
+        "Color Picker",
+        "Canvas Download",
+      ],
+      desktopImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/doodle-desktop.png`,
+      mobileImage: `${
+        import.meta.env.BASE_URL
+      }assets/projects/doodle-moblie.png`,
+      category: "webapp",
+      sourceUrl: "https://github.com/1GreenTeaR/Doodle-Art",
+      previewUrl: "https://1GreenTeaR.github.io/Doodle-Art/",
+    },
   ];
 
   useEffect(() => {
